@@ -1,0 +1,24 @@
+.newNote
+{
+    position: relative;
+    width: 297px;
+    height: 289px;
+    background-repeat: no-repeat;
+    top: 30px;
+    background-image: url(src/assets/note.png);
+    display: inline-block;
+}
+div {
+    display: inline-block;
+}
+.notePedd {
+    padding: 52px;
+    position: relative;
+    right: 12px;
+}
+span#closeIcon {
+    position: relative;
+    left: 89px;
+    bottom: 30px;
+    font-size: 25px;
+}

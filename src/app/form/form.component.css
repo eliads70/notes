@@ -1,0 +1,50 @@
+input.textArea {
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    background-color: #d2c1c1bf;
+    border: inset black 2px;
+    font-size: 25px;
+}
+input.dateTime {
+    width: 120px;
+    height: 40px;
+    background-color: #d2c1c1bf;
+    border: inset black 2px;
+}
+h3 {
+    display: block;
+}
+button {
+    position: relative;
+    top: 20px;
+}
+input.date {
+    width: 125px;
+    height: 40px;
+    background-color: #d2c1c1bf;
+    border: inset black 2px;
+}
+input.time {
+    width: 125px;
+    height: 40px;
+    background-color: #d2c1c1bf;
+    border: inset black 2px;
+}
+label {
+    display: block;
+}
+div {
+    display: inline-block;
+    margin: 20px;
+}
+hr {
+    position: relative;
+    top: 20px;
+}
+button {
+    width: 60px;
+    height: 29px;
+    background-color: #e04f4f;
+    border: inset black 2px;
+}

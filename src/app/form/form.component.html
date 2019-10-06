@@ -1,0 +1,23 @@
+<h1>My Notes Board</h1>
+<div class="form">
+    <label>
+        <h3>my reminder</h3>
+        <input class="textArea" type="text" placeholder="Add a reminder..." #text>
+    </label>
+    <div>
+        <label>
+            <h3>date</h3>
+            <input class="date" type="date" #date>
+        </label>
+    </div>
+    <div>
+        <label>
+            <h3>time</h3>
+            <input class="time" type="time" #time>
+        </label>
+    </div>
+    <br>
+    <button (click)="addNote(text.value, date.value, time.value)">create</button>
+</div>
+
+<hr>

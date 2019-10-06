@@ -1,0 +1,10 @@
+<div *ngFor="let note of newNote; let i =index">
+    <div class="newNote">
+        <div class="notePedd">
+            <span id="closeIcon" class="far fa-calendar-times"(click)="deleteItem(i)"></span>
+            <h3>{{note.text}}</h3>
+            <h4>in date:{{note.date}}</h4>
+            <h4>at time:{{note.time}}</h4>
+        </div>
+    </div>
+</div>
